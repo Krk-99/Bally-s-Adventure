@@ -1,4 +1,4 @@
-import * as BABYLON from '@babylonjs/core';
+import * as BABYLON from 'https://cdn.babylonjs.com/babylon.js';
 // import * as GUI from '@babylonjs/gui'
 import '@babylonjs/loaders/glTF/2.0/'
 import { EXT_texture_webp } from '@babylonjs/loaders/glTF/2.0/';
@@ -906,4 +906,5 @@ button.addEventListener('click', function() {
     button.style.visibility = "hidden"
     bg.style.visibility = "hidden"
     title.style.visibility = "hidden"
+
 })
